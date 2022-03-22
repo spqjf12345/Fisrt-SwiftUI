@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E21391A27E9B34F00546A29 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21391927E9B34F00546A29 /* SwiftUIView.swift */; };
 		8E431D3126355987009E4E06 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E431D3026355987009E4E06 /* ListView.swift */; };
 		8E9B0CF72604C1EF0047D154 /* firstSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */; };
 		8E9B0CF92604C1EF0047D154 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0CF82604C1EF0047D154 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E21391927E9B34F00546A29 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		8E431D3026355987009E4E06 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		8E9B0CF32604C1EF0047D154 /* firstSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		8E21391627E9B1DF00546A29 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8E21391827E9B33A00546A29 /* MoreUpgrade */,
 				8E21391527E9B18B00546A29 /* TabBarView */,
 			);
 			path = Views;
@@ -81,6 +84,14 @@
 				8E9B0D152604DF670047D154 /* Tip.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8E21391827E9B33A00546A29 /* MoreUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				8E21391927E9B34F00546A29 /* SwiftUIView.swift */,
+			);
+			path = MoreUpgrade;
 			sourceTree = "<group>";
 		};
 		8E9B0CEA2604C1EF0047D154 = {
@@ -196,6 +207,7 @@
 			files = (
 				8E9B0D2326050F4F0047D154 /* scrollingCollectionView.swift in Sources */,
 				8E9B0CF92604C1EF0047D154 /* ContentView.swift in Sources */,
+				8E21391A27E9B34F00546A29 /* SwiftUIView.swift in Sources */,
 				8E431D3126355987009E4E06 /* ListView.swift in Sources */,
 				8E9B0D0C2604CF8A0047D154 /* Location.swift in Sources */,
 				8E9B0D0F2604D2110047D154 /* Locations.swift in Sources */,
