@@ -16,11 +16,11 @@ struct firstSwiftUIApp: App {
             TabView{
                 
                 NavigationView {
-                    scrollingCollectionView()
+                    ListView()
                 }
                 .tabItem {
-                    Image(systemName: "rocket")
-                    Text("collection view")
+                    Image(systemName: "person.fill")
+                    Text("ListView")
                 }
                 
                 NavigationView {
@@ -46,6 +46,7 @@ struct firstSwiftUIApp: App {
                     Image(systemName: "star.fill")
                     Text("Locations")
                 }
+                
                 NavigationView {
                     TipsView()
                 }

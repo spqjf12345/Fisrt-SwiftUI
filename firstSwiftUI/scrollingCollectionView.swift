@@ -25,7 +25,7 @@ struct scrollingCollectionView: View {
     ]
     
     var body: some View {
-        ScrollView{
+        ScrollView(.horizontal){
             HStack {
                 ForEach(boxes, id: \.id) {
                     box in
@@ -33,14 +33,14 @@ struct scrollingCollectionView: View {
                 }
             }
         }.padding(20)
-        //.navigationTitle(Text("Collection View"))
+        .navigationTitle(Text("Collection View"))
     }
     
     
 }
 
 struct BoxView: View {
-    let box: Box
+    let box: Box // 하나의 박스
     var body: some View {
         VStack {
             Image(box.imageUrl)
