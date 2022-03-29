@@ -22,6 +22,8 @@
 		8E9B0D1D2604DFC60047D154 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0D1C2604DFC60047D154 /* TipsView.swift */; };
 		8E9B0D202604E6C60047D154 /* doTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0D1F2604E6C60047D154 /* doTap.swift */; };
 		8E9B0D2326050F4F0047D154 /* scrollingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0D2226050F4F0047D154 /* scrollingCollectionView.swift */; };
+		8EB5AEA327F3287500F06B0B /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB5AEA227F3287500F06B0B /* WeSplitApp.swift */; };
+		8EB5AEA527F328D400F06B0B /* splitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB5AEA427F328D400F06B0B /* splitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		8E9B0D1C2604DFC60047D154 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		8E9B0D1F2604E6C60047D154 /* doTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doTap.swift; sourceTree = "<group>"; };
 		8E9B0D2226050F4F0047D154 /* scrollingCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollingCollectionView.swift; sourceTree = "<group>"; };
+		8EB5AEA227F3287500F06B0B /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		8EB5AEA427F328D400F06B0B /* splitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		8E9B0CF52604C1EF0047D154 /* firstSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8EB5AEA127F3285700F06B0B /* WeSplitApp */,
 				8E21391727E9B1EC00546A29 /* Model */,
 				8E21391627E9B1DF00546A29 /* Views */,
 				8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */,
@@ -132,6 +137,15 @@
 				8E9B0CFD2604C1F90047D154 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EB5AEA127F3285700F06B0B /* WeSplitApp */ = {
+			isa = PBXGroup;
+			children = (
+				8EB5AEA227F3287500F06B0B /* WeSplitApp.swift */,
+				8EB5AEA427F328D400F06B0B /* splitView.swift */,
+			);
+			path = WeSplitApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +223,11 @@
 				8E9B0CF92604C1EF0047D154 /* ContentView.swift in Sources */,
 				8E21391A27E9B34F00546A29 /* SwiftUIView.swift in Sources */,
 				8E431D3126355987009E4E06 /* ListView.swift in Sources */,
+				8EB5AEA327F3287500F06B0B /* WeSplitApp.swift in Sources */,
 				8E9B0D0C2604CF8A0047D154 /* Location.swift in Sources */,
 				8E9B0D0F2604D2110047D154 /* Locations.swift in Sources */,
 				8E9B0D162604DF680047D154 /* Tip.swift in Sources */,
+				8EB5AEA527F328D400F06B0B /* splitView.swift in Sources */,
 				8E9B0D1D2604DFC60047D154 /* TipsView.swift in Sources */,
 				8E9B0CF72604C1EF0047D154 /* firstSwiftUIApp.swift in Sources */,
 				8E9B0D202604E6C60047D154 /* doTap.swift in Sources */,
