@@ -13,49 +13,51 @@ struct firstSwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TabView{
-                
-                NavigationView {
-                    ListView()
-                }
-                .tabItem {
-                    Image(systemName: "person.fill")
-                    Text("ListView")
-                }
-                
-                NavigationView {
-                    doTap()
-                }
-                .tabItem {
-                    Image(systemName: "star")
-                    Text("Toggle")
-                }
-                
-                NavigationView{
-                    ContentView(location: locations.primary)
-                }
-                .tabItem {
-                    Image(systemName: "airplane.circle.fill")
-                    Text("Discover")
-                }
-                
-                NavigationView {
-                    WorldView()
-                }
-                .tabItem {
-                    Image(systemName: "star.fill")
-                    Text("Locations")
-                }
-                
-                NavigationView {
-                    TipsView()
-                }
-                .tabItem {
-                    Image(systemName: "list.bullet")
-                    Text("Tips")
-                }
-            }
-            .environmentObject(locations)
+            GuessTheFlag()
+//            TabView{
+//
+//                NavigationView {
+//                    ListView()
+//                }
+//                .tabItem {
+//                    Image(systemName: "person.fill")
+//                    Text("ListView")
+//                }
+//
+//                NavigationView {
+//                    doTap()
+//                }
+//                .tabItem {
+//                    Image(systemName: "star")
+//                    Text("Toggle")
+//                }
+//
+//                NavigationView{
+//                    //ContentView(location: locations.primary)
+//                    GuessTheFlag()
+//                }
+//                .tabItem {
+//                    Image(systemName: "airplane.circle.fill")
+//                    Text("Discover")
+//                }
+//
+//                NavigationView {
+//                    WorldView()
+//                }
+//                .tabItem {
+//                    Image(systemName: "star.fill")
+//                    Text("Locations")
+//                }
+//
+//                NavigationView {
+//                    TipsView()
+//                }
+//                .tabItem {
+//                    Image(systemName: "list.bullet")
+//                    Text("Tips")
+//                }
+//            }
+//            .environmentObject(locations)
            
             
         }
