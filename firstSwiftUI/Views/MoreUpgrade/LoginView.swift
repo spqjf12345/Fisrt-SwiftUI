@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct LoginView: View {
     let genderType = ["남성","여성","비밀"]
     
     @State var name = ""
@@ -56,8 +56,8 @@ struct SwiftUIView: View {
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        LoginView()
     }
 }

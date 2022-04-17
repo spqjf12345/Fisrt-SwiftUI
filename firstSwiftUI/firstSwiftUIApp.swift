@@ -7,13 +7,17 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 @main
 struct firstSwiftUIApp: App {
     @StateObject var locations = Locations()
     
     var body: some Scene {
         WindowGroup {
-            GuessTheFlag()
+            NavigationView {
+                BetterRest()
+            }
+            
 //            TabView{
 //
 //                NavigationView {

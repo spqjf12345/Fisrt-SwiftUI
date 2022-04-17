@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  GuessTheFlag.swift
 //  firstSwiftUI
 //
 //  Created by JoSoJeong on 2022/04/11.
@@ -16,6 +16,7 @@ struct GuessTheFlag: View {
     
     var body: some View {
         if #available(iOS 15.0, *) {
+            
             ZStack{
                 RadialGradient(stops: [
                     .init(color: Color(red: 0.1, green: 0.2, blue: 0.45), location: 0.3),

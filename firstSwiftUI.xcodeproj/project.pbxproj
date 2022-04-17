@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E21391A27E9B34F00546A29 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21391927E9B34F00546A29 /* SwiftUIView.swift */; };
+		8E21391A27E9B34F00546A29 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21391927E9B34F00546A29 /* LoginView.swift */; };
 		8E2E50CE2804677600D2B5FC /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E50CD2804677600D2B5FC /* GuessTheFlag.swift */; };
 		8E431D3126355987009E4E06 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E431D3026355987009E4E06 /* ListView.swift */; };
+		8E8FDF6B280C011D00CA0151 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FDF6A280C011D00CA0151 /* BetterRest.swift */; };
+		8E8FDF6E280C093300CA0151 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FDF6D280C093200CA0151 /* SleepCalculator.mlmodel */; };
 		8E9B0CF72604C1EF0047D154 /* firstSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */; };
 		8E9B0CF92604C1EF0047D154 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0CF82604C1EF0047D154 /* ContentView.swift */; };
 		8E9B0CFB2604C1F90047D154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B0CFA2604C1F90047D154 /* Assets.xcassets */; };
@@ -28,9 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E21391927E9B34F00546A29 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		8E21391927E9B34F00546A29 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8E2E50CD2804677600D2B5FC /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		8E431D3026355987009E4E06 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8E8FDF6A280C011D00CA0151 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		8E8FDF6D280C093200CA0151 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		8E9B0CF32604C1EF0047D154 /* firstSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSwiftUIApp.swift; sourceTree = "<group>"; };
 		8E9B0CF82604C1EF0047D154 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,7 +100,7 @@
 		8E21391827E9B33A00546A29 /* MoreUpgrade */ = {
 			isa = PBXGroup;
 			children = (
-				8E21391927E9B34F00546A29 /* SwiftUIView.swift */,
+				8E21391927E9B34F00546A29 /* LoginView.swift */,
 			);
 			path = MoreUpgrade;
 			sourceTree = "<group>";
@@ -106,8 +110,17 @@
 			children = (
 				8EB5AEA127F3285700F06B0B /* WeSplitApp */,
 				8E2E50CD2804677600D2B5FC /* GuessTheFlag.swift */,
+				8E8FDF6A280C011D00CA0151 /* BetterRest.swift */,
 			);
 			path = 100daysOfSwiftUI;
+			sourceTree = "<group>";
+		};
+		8E8FDF6C280C092B00CA0151 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E8FDF6D280C093200CA0151 /* SleepCalculator.mlmodel */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		8E9B0CEA2604C1EF0047D154 = {
@@ -129,6 +142,7 @@
 		8E9B0CF52604C1EF0047D154 /* firstSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8E8FDF6C280C092B00CA0151 /* Utils */,
 				8E21391727E9B1EC00546A29 /* Model */,
 				8E21391627E9B1DF00546A29 /* Views */,
 				8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */,
@@ -232,7 +246,8 @@
 			files = (
 				8E9B0D2326050F4F0047D154 /* scrollingCollectionView.swift in Sources */,
 				8E9B0CF92604C1EF0047D154 /* ContentView.swift in Sources */,
-				8E21391A27E9B34F00546A29 /* SwiftUIView.swift in Sources */,
+				8E8FDF6E280C093300CA0151 /* SleepCalculator.mlmodel in Sources */,
+				8E21391A27E9B34F00546A29 /* LoginView.swift in Sources */,
 				8E431D3126355987009E4E06 /* ListView.swift in Sources */,
 				8EB5AEA327F3287500F06B0B /* WeSplitApp.swift in Sources */,
 				8E9B0D0C2604CF8A0047D154 /* Location.swift in Sources */,
@@ -243,6 +258,7 @@
 				8E9B0D1D2604DFC60047D154 /* TipsView.swift in Sources */,
 				8E9B0CF72604C1EF0047D154 /* firstSwiftUIApp.swift in Sources */,
 				8E9B0D202604E6C60047D154 /* doTap.swift in Sources */,
+				8E8FDF6B280C011D00CA0151 /* BetterRest.swift in Sources */,
 				8E9B0D122604D4FD0047D154 /* WorldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -356,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
