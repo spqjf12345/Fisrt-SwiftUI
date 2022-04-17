@@ -12,6 +12,8 @@
 		8E431D3126355987009E4E06 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E431D3026355987009E4E06 /* ListView.swift */; };
 		8E8FDF6B280C011D00CA0151 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FDF6A280C011D00CA0151 /* BetterRest.swift */; };
 		8E8FDF6E280C093300CA0151 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FDF6D280C093200CA0151 /* SleepCalculator.mlmodel */; };
+		8E8FDF70280C4BAB00CA0151 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E8FDF6F280C4BAB00CA0151 /* start.txt */; };
+		8E8FDF72280C4BD800CA0151 /* ListWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FDF71280C4BD800CA0151 /* ListWord.swift */; };
 		8E9B0CF72604C1EF0047D154 /* firstSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */; };
 		8E9B0CF92604C1EF0047D154 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B0CF82604C1EF0047D154 /* ContentView.swift */; };
 		8E9B0CFB2604C1F90047D154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B0CFA2604C1F90047D154 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 		8E431D3026355987009E4E06 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		8E8FDF6A280C011D00CA0151 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		8E8FDF6D280C093200CA0151 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		8E8FDF6F280C4BAB00CA0151 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		8E8FDF71280C4BD800CA0151 /* ListWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWord.swift; sourceTree = "<group>"; };
 		8E9B0CF32604C1EF0047D154 /* firstSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9B0CF62604C1EF0047D154 /* firstSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSwiftUIApp.swift; sourceTree = "<group>"; };
 		8E9B0CF82604C1EF0047D154 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				8EB5AEA127F3285700F06B0B /* WeSplitApp */,
 				8E2E50CD2804677600D2B5FC /* GuessTheFlag.swift */,
 				8E8FDF6A280C011D00CA0151 /* BetterRest.swift */,
+				8E8FDF71280C4BD800CA0151 /* ListWord.swift */,
 			);
 			path = 100daysOfSwiftUI;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		8E8FDF6C280C092B00CA0151 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8E8FDF6F280C4BAB00CA0151 /* start.txt */,
 				8E8FDF6D280C093200CA0151 /* SleepCalculator.mlmodel */,
 			);
 			path = Utils;
@@ -234,6 +240,7 @@
 				8E9B0D092604C47A0047D154 /* tips.json in Resources */,
 				8E9B0D082604C47A0047D154 /* locations.json in Resources */,
 				8E9B0CFB2604C1F90047D154 /* Assets.xcassets in Resources */,
+				8E8FDF70280C4BAB00CA0151 /* start.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 				8E9B0CF72604C1EF0047D154 /* firstSwiftUIApp.swift in Sources */,
 				8E9B0D202604E6C60047D154 /* doTap.swift in Sources */,
 				8E8FDF6B280C011D00CA0151 /* BetterRest.swift in Sources */,
+				8E8FDF72280C4BD800CA0151 /* ListWord.swift in Sources */,
 				8E9B0D122604D4FD0047D154 /* WorldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

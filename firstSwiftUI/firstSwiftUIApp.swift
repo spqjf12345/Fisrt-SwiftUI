@@ -15,7 +15,7 @@ struct firstSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                BetterRest()
+                ListWord()
             }
             
 //            TabView{
